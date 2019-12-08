@@ -18,7 +18,7 @@ Since the developing of genetic engineering, genomic research becomes an importa
 There are 3 states in PHMMs including Match(M), Insertion(I), and D(Deletion), and the conparasion of the two sequences could be any of these 3 states. And every state will be assigned with a reward or penalty score to find a better match of the two sequences.
 
 <p align="center">
-<img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/Motion-Controller/blob/master/Assets/Trap_vs_SCurve.png" >
+<img src1="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/Hidden-Markov-Model-On-PYNQ-Z2/blob/master/Images/The-Structure-of-a-Profile-HMM-The-bottom-lines-of-states-are-called-the-match-M.png" >
 
-	Figure 1: Trapezoidal vs S-Curve (velocity vs time)
+	Figure 1: HMMs State Diagram
 </p>
