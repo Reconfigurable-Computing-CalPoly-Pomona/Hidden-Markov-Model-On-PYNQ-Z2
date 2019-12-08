@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  3 21:30:20 2019
+# Process ID: 209220
+# Current directory: C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_processing_system7_0_2_synth_1
+# Command line: vivado.exe -log design_1_processing_system7_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_2.tcl
+# Log file: C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_processing_system7_0_2_synth_1/design_1_processing_system7_0_2.vds
+# Journal file: C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_processing_system7_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_processing_system7_0_2.tcl -notrace
