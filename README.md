@@ -22,3 +22,44 @@ There are 3 states in PHMMs including Match(M), Insertion(I), and D(Deletion), a
 
 	Figure 1: HMMs State Diagram
 </p>
+
+**Implementation and Design**
+
+The design need some parameters to calculate build the scoring system including MM, MI, MD, MMis, MisM, MisI, MisD and MisMis where Mis stands for Mismatch, M stands for Match, I stands for Insertion and D stands for Deletion. These parameters are found and calculated based on the input sequences.
+```cpp
+int HMM_Scoring(int m_arr[M], int n_arr[N], int MM, int MD, int MI, int MMis, int MisI, int MisD, int MisMis, int MisM)
+{
+	//create scoring matrix
+	int grading_arr[M][N] = {0};
+	//initialize matrix
+	for(int i = 0; i < M; i++)
+	{
+		for(int j = 0; j < N; j++)
+		{
+			if (Match-March)
+				score = prev_score + MM;
+			else if (Match-Deletion)
+				score = prev_score - MD;
+			...
+			...
+		}
+	}
+	return max_score;
+	
+}
+
+```
+
+The design use M_axi and s_axi to receive data from ARM (ZYNQ Board) to FPGA, get the data proceed and then send back to ARM to display the result on Jupyter Notebook which is a Python based driver in this design.
+
+**Possiable Future Improvment**
+
+There are still a lot of accelerating space of the design, since the input of the sequence is an int array. Since there are only 5 possible inputs, the input can be represented with a 3 bits integer. Realizing this input design will be a large acceleration of the total design.
+
+**Project Sponsors:**
+
+1. **[Xilinx Inc.](https://www.xilinx.com/)**
+
+2. **[IBM](https://www.ibm.com/us-en/)** 
+
+3. **[Center for Cognitive Computing System Research](https://www.c3sr.com/)**
