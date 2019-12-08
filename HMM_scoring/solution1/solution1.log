@@ -1,0 +1,1484 @@
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from HMM_scoring.cpp:1:
+HMM_scoring.cpp:36:16: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+ int M = sizeof(m_arr);
+               ^
+HMM_scoring.cpp:33:21: note: declared here
+int HMM_Scoring(int m_arr[], int n_arr[])
+                    ^
+HMM_scoring.cpp:37:16: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+ int N = sizeof(n_arr);
+               ^
+HMM_scoring.cpp:33:34: note: declared here
+int HMM_Scoring(int m_arr[], int n_arr[])
+                                 ^
+HMM_scoring.cpp:40:21: error: variable-sized object may not be initialized
+ double grading_arr[M][N] = {0};
+                    ^
+2 warnings and 1 error generated.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from HMM_scoring.cpp:1:
+HMM_scoring.cpp:36:16: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+ int M = sizeof(m_arr);
+               ^
+HMM_scoring.cpp:33:21: note: declared here
+int HMM_Scoring(int m_arr[], int n_arr[])
+                    ^
+HMM_scoring.cpp:37:16: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+ int N = sizeof(n_arr);
+               ^
+HMM_scoring.cpp:33:34: note: declared here
+int HMM_Scoring(int m_arr[], int n_arr[])
+                                 ^
+HMM_scoring.cpp:40:21: error: variable-sized object may not be initialized
+ double grading_arr[M][N] = {0.0};
+                    ^
+2 warnings and 1 error generated.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+WARNING: [HLS 200-40] In file included from HMM_scoring.cpp:1:
+HMM_scoring.cpp:36:16: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+ int M = sizeof(m_arr);
+               ^
+HMM_scoring.cpp:33:21: note: declared here
+int HMM_Scoring(int m_arr[], int n_arr[])
+                    ^
+HMM_scoring.cpp:37:16: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+ int N = sizeof(n_arr);
+               ^
+HMM_scoring.cpp:33:34: note: declared here
+int HMM_Scoring(int m_arr[], int n_arr[])
+                                 ^
+2 warnings generated.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 185.191 ; gain = 93.551
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 185.191 ; gain = 93.551
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:10).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 185.723 ; gain = 94.082
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::mantissa' into 'generic_cast_IEEE754<int, (ap_q_mode)6, double>' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:15) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::expv' into 'generic_cast_IEEE754<int, (ap_q_mode)6, double>' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::__signbit' into 'generic_cast_IEEE754<int, (ap_q_mode)6, double>' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, (ap_q_mode)6, double>' into 'generic_cast_IEEE754<int, double>' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:117) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, double>' into '__hls_fptosi_double_i32' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:55) automatically.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:62) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptosi_double_i32' into 'HMM_Scoring' (HMM_scoring.cpp:87) automatically.
+ERROR: [SYNCHK 200-61] HMM_scoring.cpp:46: unsupported memory access on variable 'm_arr' which is (or contains) an array with unknown size at compile time.
+INFO: [SYNCHK 200-10] 1 error(s), 0 warning(s).
+ERROR: [HLS 200-70] Synthesizability check failed.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+WARNING: [HLS 200-40] In file included from HMM_scoring.cpp:1:
+HMM_scoring.cpp:36:16: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+ int M = sizeof(m_arr)/sizeof(m_arr[0]);
+               ^
+HMM_scoring.cpp:33:21: note: declared here
+int HMM_Scoring(int m_arr[], int n_arr[])
+                    ^
+HMM_scoring.cpp:37:16: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+ int N = sizeof(n_arr)/sizeof(n_arr[0]);
+               ^
+HMM_scoring.cpp:33:34: note: declared here
+int HMM_Scoring(int m_arr[], int n_arr[])
+                                 ^
+2 warnings generated.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.004 ; gain = 93.375
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.004 ; gain = 93.375
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:10).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 189.270 ; gain = 97.641
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::mantissa' into 'generic_cast_IEEE754<int, (ap_q_mode)6, double>' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:15) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::expv' into 'generic_cast_IEEE754<int, (ap_q_mode)6, double>' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::__signbit' into 'generic_cast_IEEE754<int, (ap_q_mode)6, double>' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, (ap_q_mode)6, double>' into 'generic_cast_IEEE754<int, double>' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:117) automatically.
+INFO: [XFORM 203-602] Inlining function 'generic_cast_IEEE754<int, double>' into '__hls_fptosi_double_i32' (r:/builds/2019.1/continuous/2019_05_24_2552052/src/products/hls/hls_lib/hlsmath/src/lib_floatconversion.cpp:55) automatically.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:62) automatically.
+INFO: [XFORM 203-602] Inlining function '__hls_fptosi_double_i32' into 'HMM_Scoring' (HMM_scoring.cpp:87) automatically.
+ERROR: [SYNCHK 200-61] HMM_scoring.cpp:46: unsupported memory access on variable 'm_arr' which is (or contains) an array with unknown size at compile time.
+INFO: [SYNCHK 200-10] 1 error(s), 0 warning(s).
+ERROR: [HLS 200-70] Synthesizability check failed.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.395 ; gain = 92.715
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.395 ; gain = 92.715
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.395 ; gain = 92.715
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.395 ; gain = 92.715
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.395 ; gain = 92.715
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.395 ; gain = 92.715
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 12.346 seconds; current allocated memory: 111.447 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.237 seconds; current allocated memory: 112.191 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.301 seconds; current allocated memory: 113.568 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 188.141 ; gain = 96.461
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 16.2 seconds; peak allocated memory: 113.568 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.547 ; gain = 92.867
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.547 ; gain = 92.867
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.547 ; gain = 92.867
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.547 ; gain = 92.867
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.547 ; gain = 92.867
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.547 ; gain = 92.867
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 11.739 seconds; current allocated memory: 111.378 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.201 seconds; current allocated memory: 112.180 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_mul_mul_11s_11ns_21_1_1' to 'HMM_Scoring_mul_mg8j' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_mul_mg8j': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.313 seconds; current allocated memory: 113.638 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 186.832 ; gain = 95.152
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 15.363 seconds; peak allocated memory: 113.638 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.012 ; gain = 93.379
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.012 ; gain = 93.379
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.012 ; gain = 93.379
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.012 ; gain = 93.379
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.012 ; gain = 93.379
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 185.012 ; gain = 93.379
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 10.657 seconds; current allocated memory: 111.400 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.185 seconds; current allocated memory: 112.175 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.297 seconds; current allocated memory: 113.567 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 186.648 ; gain = 95.016
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.061 seconds; peak allocated memory: 113.567 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.707 ; gain = 93.063
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.707 ; gain = 93.063
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.707 ; gain = 93.063
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.707 ; gain = 93.063
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.707 ; gain = 93.063
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.707 ; gain = 93.063
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 10.636 seconds; current allocated memory: 111.438 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.188 seconds; current allocated memory: 112.216 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.292 seconds; current allocated memory: 113.586 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 186.723 ; gain = 95.078
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.058 seconds; peak allocated memory: 113.586 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.059 ; gain = 93.406
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.059 ; gain = 93.406
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.059 ; gain = 93.406
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.059 ; gain = 93.406
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.059 ; gain = 93.406
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 185.059 ; gain = 93.406
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 10.703 seconds; current allocated memory: 111.378 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.213 seconds; current allocated memory: 112.180 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_mul_mul_11s_11ns_21_1_1' to 'HMM_Scoring_mul_mg8j' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_mul_mg8j': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.311 seconds; current allocated memory: 113.638 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 188.855 ; gain = 97.203
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.75 seconds; peak allocated memory: 113.638 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.160 ; gain = 92.480
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.160 ; gain = 92.480
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.160 ; gain = 92.480
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.160 ; gain = 92.480
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.160 ; gain = 92.480
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.160 ; gain = 92.480
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 11.039 seconds; current allocated memory: 111.438 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.184 seconds; current allocated memory: 112.216 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.287 seconds; current allocated memory: 113.586 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 186.832 ; gain = 95.152
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.511 seconds; peak allocated memory: 113.586 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.227 ; gain = 92.570
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.227 ; gain = 92.570
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.227 ; gain = 92.570
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.227 ; gain = 92.570
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.227 ; gain = 92.570
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.227 ; gain = 92.570
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 11.503 seconds; current allocated memory: 111.421 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.185 seconds; current allocated memory: 112.200 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.279 seconds; current allocated memory: 113.569 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 188.926 ; gain = 97.270
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.909 seconds; peak allocated memory: 113.569 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.168 ; gain = 92.508
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.168 ; gain = 92.508
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.168 ; gain = 92.508
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.168 ; gain = 92.508
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.168 ; gain = 92.508
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.168 ; gain = 92.508
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 10.756 seconds; current allocated memory: 111.406 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.181 seconds; current allocated memory: 112.168 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.279 seconds; current allocated memory: 113.553 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 186.734 ; gain = 95.074
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.227 seconds; peak allocated memory: 113.553 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.375 ; gain = 92.738
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.375 ; gain = 92.738
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.375 ; gain = 92.738
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.375 ; gain = 92.738
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.375 ; gain = 92.738
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.375 ; gain = 92.738
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 10.656 seconds; current allocated memory: 111.437 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.189 seconds; current allocated memory: 112.215 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.284 seconds; current allocated memory: 113.585 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 188.219 ; gain = 96.582
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.07 seconds; peak allocated memory: 113.585 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.465 ; gain = 92.770
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.465 ; gain = 92.770
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<double*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.465 ; gain = 92.770
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.465 ; gain = 92.770
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.465 ; gain = 92.770
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.465 ; gain = 92.770
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 11.535 seconds; current allocated memory: 111.406 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.196 seconds; current allocated memory: 112.169 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dadd_64ns_64ns_64_5_full_dsp_1' to 'HMM_Scoring_dadd_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_eOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_dcmp_64ns_64ns_1_2_1' to 'HMM_Scoring_dcmp_fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dadd_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_dcmp_fYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.296 seconds; current allocated memory: 113.554 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 187.398 ; gain = 95.703
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 15.123 seconds; peak allocated memory: 113.554 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.305 ; gain = 87.367
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.305 ; gain = 87.367
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.305 ; gain = 87.367
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.305 ; gain = 87.367
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:63) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.305 ; gain = 87.367
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.305 ; gain = 87.367
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 11.408 seconds; current allocated memory: 111.090 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.149 seconds; current allocated memory: 111.741 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_sitodp_32ns_64_6_1' to 'HMM_Scoring_sitodeOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_sitodeOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.211 seconds; current allocated memory: 112.823 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 186.359 ; gain = 89.422
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.271 seconds; peak allocated memory: 112.823 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.188 ; gain = 92.543
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.188 ; gain = 92.543
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.188 ; gain = 92.543
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:65) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.188 ; gain = 92.543
+INFO: [XFORM 203-131] Reshaping array 'n_arr' (HMM_scoring.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-131] Reshaping array 'm_arr' (HMM_scoring.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:65) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.188 ; gain = 92.543
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.188 ; gain = 92.543
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 11.086 seconds; current allocated memory: 111.966 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.207 seconds; current allocated memory: 112.714 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_sitodp_32ns_64_6_1' to 'HMM_Scoring_sitodeOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_sitodeOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.393 seconds; current allocated memory: 114.028 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 188.707 ; gain = 97.063
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 15.135 seconds; peak allocated memory: 114.028 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.352 ; gain = 93.723
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 185.352 ; gain = 93.723
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 185.352 ; gain = 93.723
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:65) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 185.352 ; gain = 93.723
+INFO: [XFORM 203-131] Reshaping array 'n_arr' (HMM_scoring.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-131] Reshaping array 'm_arr' (HMM_scoring.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:65) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 185.352 ; gain = 93.723
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 185.352 ; gain = 93.723
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 10.975 seconds; current allocated memory: 111.966 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.207 seconds; current allocated memory: 112.714 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_sitodp_32ns_64_6_1' to 'HMM_Scoring_sitodeOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_sitodeOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.374 seconds; current allocated memory: 114.028 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 188.133 ; gain = 96.504
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.942 seconds; peak allocated memory: 114.028 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.215 ; gain = 92.547
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.215 ; gain = 92.547
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.215 ; gain = 92.547
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:66) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.215 ; gain = 92.547
+INFO: [XFORM 203-131] Reshaping array 'n_arr' (HMM_scoring.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-131] Reshaping array 'm_arr' (HMM_scoring.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:66) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.215 ; gain = 92.547
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.215 ; gain = 92.547
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 12.02 seconds; current allocated memory: 112.068 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.214 seconds; current allocated memory: 112.823 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_sitodp_32ns_64_6_1' to 'HMM_Scoring_sitodeOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_sitodeOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.402 seconds; current allocated memory: 114.189 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 187.617 ; gain = 95.949
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 16.564 seconds; peak allocated memory: 114.189 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.016 ; gain = 92.375
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.016 ; gain = 92.375
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.016 ; gain = 92.375
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:67) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.016 ; gain = 92.375
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:67) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.016 ; gain = 92.375
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 200 on port 'gmem' (HMM_scoring.cpp:51:4). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.016 ; gain = 92.375
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 11.399 seconds; current allocated memory: 111.704 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.145 seconds; current allocated memory: 112.346 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' and 'n_arr' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_ddiv_64ns_64ns_64_31_1' to 'HMM_Scoring_ddiv_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_sitodp_32ns_64_6_1' to 'HMM_Scoring_sitodeOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_ddiv_dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_sitodeOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.231 seconds; current allocated memory: 113.799 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 184.016 ; gain = 92.375
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.554 seconds; peak allocated memory: 113.799 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 184.344 ; gain = 92.695
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 184.344 ; gain = 92.695
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 184.344 ; gain = 92.695
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 184.344 ; gain = 92.695
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 184.344 ; gain = 92.695
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 200 on port 'gmem' (HMM_scoring.cpp:56:4). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:21 . Memory (MB): peak = 184.344 ; gain = 92.695
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 21.479 seconds; current allocated memory: 114.092 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.178 seconds; current allocated memory: 114.698 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' and 'n_arr' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_fdiv_32ns_32ns_32_16_1' to 'HMM_Scoring_fdiv_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_sitofp_32ns_32_6_1' to 'HMM_Scoring_sitofeOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_fdiv_dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'HMM_Scoring_sitofeOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.249 seconds; current allocated memory: 116.054 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 184.344 ; gain = 92.695
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 25.001 seconds; peak allocated memory: 116.054 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 184.313 ; gain = 92.664
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 184.313 ; gain = 92.664
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 184.313 ; gain = 92.664
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 184.313 ; gain = 92.664
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 184.313 ; gain = 92.664
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 200 on port 'gmem' (HMM_scoring.cpp:56:4). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 184.313 ; gain = 92.664
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 21.939 seconds; current allocated memory: 114.011 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.144 seconds; current allocated memory: 114.542 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' and 'n_arr' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 115.696 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 184.313 ; gain = 92.664
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 24.676 seconds; peak allocated memory: 115.696 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.953 ; gain = 93.242
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 184.953 ; gain = 93.242
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.953 ; gain = 93.242
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.953 ; gain = 93.242
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.953 ; gain = 93.242
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 200 on port 'gmem' (HMM_scoring.cpp:56:4). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 184.953 ; gain = 93.242
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 11.492 seconds; current allocated memory: 114.011 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.115 seconds; current allocated memory: 114.542 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' and 'n_arr' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.179 seconds; current allocated memory: 115.696 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 184.953 ; gain = 93.242
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.174 seconds; peak allocated memory: 115.696 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.297 ; gain = 92.641
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.297 ; gain = 92.641
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.297 ; gain = 92.641
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.297 ; gain = 92.641
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.297 ; gain = 92.641
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 200 on port 'gmem' (HMM_scoring.cpp:56:4). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 184.297 ; gain = 92.641
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 12.412 seconds; current allocated memory: 114.394 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 7 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.141 seconds; current allocated memory: 115.047 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' and 'n_arr' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.271 seconds; current allocated memory: 116.451 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 184.297 ; gain = 92.641
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 15.425 seconds; peak allocated memory: 116.451 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.906 ; gain = 93.242
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.906 ; gain = 93.242
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.906 ; gain = 93.242
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 184.906 ; gain = 93.242
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 184.906 ; gain = 93.242
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 200 on port 'gmem' (HMM_scoring.cpp:56:4). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 184.906 ; gain = 93.242
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 12.211 seconds; current allocated memory: 114.030 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 5 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.118 seconds; current allocated memory: 114.563 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' and 'n_arr' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.191 seconds; current allocated memory: 115.716 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 184.906 ; gain = 93.242
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 14.775 seconds; peak allocated memory: 115.716 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 184.371 ; gain = 92.684
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 184.371 ; gain = 92.684
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 184.371 ; gain = 92.684
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 184.371 ; gain = 92.684
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:72) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 184.371 ; gain = 92.684
+INFO: [HLS 200-444] Inferring multiple bus burst read of a total cumulative length 200 on port 'gmem' (HMM_scoring.cpp:56:4). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 184.371 ; gain = 92.684
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 15.334 seconds; current allocated memory: 114.288 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 7 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.125 seconds; current allocated memory: 114.890 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' and 'n_arr' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.205 seconds; current allocated memory: 116.197 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 184.371 ; gain = 92.684
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 18.21 seconds; peak allocated memory: 116.197 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:27 . Memory (MB): peak = 184.355 ; gain = 92.770
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:27 . Memory (MB): peak = 184.355 ; gain = 92.770
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:27 . Memory (MB): peak = 184.355 ; gain = 92.770
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 184.355 ; gain = 92.770
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:136) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (HMM_scoring.cpp:124:7) in function 'HMM_Scoring'... converting 4 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 184.355 ; gain = 92.770
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:28 . Memory (MB): peak = 184.355 ; gain = 92.770
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 28.54 seconds; current allocated memory: 114.747 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 7 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.166 seconds; current allocated memory: 115.709 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MM' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MD' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MI' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MMis' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MisI' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MisD' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MisMis' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MisM' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return', 'n_arr', 'MM', 'MD', 'MI', 'MMis', 'MisI', 'MisD', 'MisMis' and 'MisM' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradicud' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.266 seconds; current allocated memory: 117.375 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using distributed RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradicud_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:32 . Memory (MB): peak = 191.680 ; gain = 100.094
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 31.708 seconds; peak allocated memory: 117.375 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
