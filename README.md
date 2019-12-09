@@ -7,7 +7,8 @@ This project has been done as a collaboration between California State Polytechn
 1. Yongyuan Zhang: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. 
 2. Ziyan Lin: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. 
 
-**Supervising Professor:** Mohamed El-Hadedy 
+**Supervising Professor:** 
+. Mohamed El-Hadedy: Assistant Professor in Electrical and Computer Engineering at CalPoly, Pomona  
 
 **Collaborators:**
 1. Wen-Mei Hwu:  Director of Center for Cognitive Computing System Research and Walter J. Sanders III-AMD Endowed Chair Professor in Elecrical and Computer Engineering at UIUC 
