@@ -9,7 +9,7 @@ This project has been done as a collaboration between California State Polytechn
 
 **Supervising Professor:** 
 
-. Mohamed El-Hadedy: Assistant Professor in Electrical and Computer Engineering at CalPoly, Pomona  
+1. Mohamed El-Hadedy: Assistant Professor in Electrical and Computer Engineering at CalPoly, Pomona  
 
 **Collaborators:**
 1. Wen-Mei Hwu:  Director of Center for Cognitive Computing System Research and Walter J. Sanders III-AMD Endowed Chair Professor in Elecrical and Computer Engineering at UIUC 
