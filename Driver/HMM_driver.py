@@ -5,7 +5,7 @@ from pynq import Xlnk
 M = 200
 N = 200
 xlnk = Xlnk();
-overlay = Overlay('/home/xilinx/pynq/overlays/HMM_v5/HMM_v5.bit')
+overlay = Overlay('/home/xilinx/pynq/overlays/HMM_v6/HMM_v6.bit')
 overlay.download()
 HMM_test = overlay.HMM_Scoring_0
 
