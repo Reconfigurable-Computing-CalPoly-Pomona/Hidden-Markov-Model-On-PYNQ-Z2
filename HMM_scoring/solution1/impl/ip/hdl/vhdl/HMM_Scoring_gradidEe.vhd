@@ -7,12 +7,12 @@ library ieee;
 use ieee.std_logic_1164.all; 
 use ieee.std_logic_unsigned.all;
 
-entity HMM_Scoring_max_abkb_ram is 
+entity HMM_Scoring_gradidEe_ram is 
     generic(
             MEM_TYPE    : string := "block"; 
             DWIDTH     : integer := 32; 
-            AWIDTH     : integer := 2; 
-            MEM_SIZE    : integer := 3
+            AWIDTH     : integer := 16; 
+            MEM_SIZE    : integer := 40000
     ); 
     port (
           addr0     : in std_logic_vector(AWIDTH-1 downto 0); 
@@ -30,7 +30,7 @@ entity HMM_Scoring_max_abkb_ram is
 end entity; 
 
 
-architecture rtl of HMM_Scoring_max_abkb_ram is 
+architecture rtl of HMM_Scoring_gradidEe_ram is 
 
 signal addr0_tmp : std_logic_vector(AWIDTH-1 downto 0); 
 signal addr1_tmp : std_logic_vector(AWIDTH-1 downto 0); 
@@ -99,11 +99,11 @@ end rtl;
 Library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity HMM_Scoring_max_abkb is
+entity HMM_Scoring_gradidEe is
     generic (
         DataWidth : INTEGER := 32;
-        AddressRange : INTEGER := 3;
-        AddressWidth : INTEGER := 2);
+        AddressRange : INTEGER := 40000;
+        AddressWidth : INTEGER := 16);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;
@@ -119,8 +119,8 @@ entity HMM_Scoring_max_abkb is
         q1 : OUT STD_LOGIC_VECTOR(DataWidth - 1 DOWNTO 0));
 end entity;
 
-architecture arch of HMM_Scoring_max_abkb is
-    component HMM_Scoring_max_abkb_ram is
+architecture arch of HMM_Scoring_gradidEe is
+    component HMM_Scoring_gradidEe_ram is
         port (
             clk : IN STD_LOGIC;
             addr0 : IN STD_LOGIC_VECTOR;
@@ -138,7 +138,7 @@ architecture arch of HMM_Scoring_max_abkb is
 
 
 begin
-    HMM_Scoring_max_abkb_ram_U :  component HMM_Scoring_max_abkb_ram
+    HMM_Scoring_gradidEe_ram_U :  component HMM_Scoring_gradidEe_ram
     port map (
         clk => clk,
         addr0 => address0,

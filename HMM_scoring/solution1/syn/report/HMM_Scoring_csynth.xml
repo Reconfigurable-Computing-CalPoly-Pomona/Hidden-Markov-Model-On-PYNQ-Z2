@@ -23,9 +23,9 @@
 <unit>clock cycles</unit>
 <Best-caseLatency>562802</Best-caseLatency>
 <Average-caseLatency>762802</Average-caseLatency>
-<Worst-caseLatency>1202802</Worst-caseLatency>
+<Worst-caseLatency>1282802</Worst-caseLatency>
 <Interval-min>562803</Interval-min>
-<Interval-max>1202803</Interval-max>
+<Interval-max>1282803</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <memset_grading_arr>
@@ -43,13 +43,13 @@
 <Latency>
 <range>
 <min>442200</min>
-<max>1082200</max>
+<max>1162200</max>
 </range>
 </Latency>
 <IterationLatency>
 <range>
 <min>2211</min>
-<max>5411</max>
+<max>5811</max>
 </range>
 </IterationLatency>
 <Loop2.1>
@@ -57,13 +57,13 @@
 <Latency>
 <range>
 <min>2200</min>
-<max>5400</max>
+<max>5800</max>
 </range>
 </Latency>
 <IterationLatency>
 <range>
 <min>11</min>
-<max>27</max>
+<max>29</max>
 </range>
 </IterationLatency>
 <Loop2.1.1>
@@ -71,6 +71,11 @@
 <Latency>7</Latency>
 <IterationLatency>3</IterationLatency>
 </Loop2.1.1>
+<Loop2.1.2>
+<TripCount>2</TripCount>
+<Latency>7</Latency>
+<IterationLatency>3</IterationLatency>
+</Loop2.1.2>
 </Loop2.1>
 </Loop2>
 <Loop3>
@@ -88,10 +93,10 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>130</BRAM_18K>
+<BRAM_18K>134</BRAM_18K>
 <DSP48E>0</DSP48E>
-<FF>2082</FF>
-<LUT>2981</LUT>
+<FF>2164</FF>
+<LUT>3272</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

@@ -3,11 +3,11 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // ==============================================================
 `timescale 1 ns / 1 ps
-module HMM_Scoring_max_abkb_ram (addr0, ce0, d0, we0, q0, addr1, ce1, d1, we1, q1,  clk);
+module HMM_Scoring_gradidEe_ram (addr0, ce0, d0, we0, q0, addr1, ce1, d1, we1, q1,  clk);
 
 parameter DWIDTH = 32;
-parameter AWIDTH = 2;
-parameter MEM_SIZE = 3;
+parameter AWIDTH = 16;
+parameter MEM_SIZE = 40000;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -55,7 +55,7 @@ end
 endmodule
 
 `timescale 1 ns / 1 ps
-module HMM_Scoring_max_abkb(
+module HMM_Scoring_gradidEe(
     reset,
     clk,
     address0,
@@ -70,8 +70,8 @@ module HMM_Scoring_max_abkb(
     q1);
 
 parameter DataWidth = 32'd32;
-parameter AddressRange = 32'd3;
-parameter AddressWidth = 32'd2;
+parameter AddressRange = 32'd40000;
+parameter AddressWidth = 32'd16;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;
@@ -87,7 +87,7 @@ output[DataWidth - 1:0] q1;
 
 
 
-HMM_Scoring_max_abkb_ram HMM_Scoring_max_abkb_ram_U(
+HMM_Scoring_gradidEe_ram HMM_Scoring_gradidEe_ram_U(
     .clk( clk ),
     .addr0( address0 ),
     .ce0( ce0 ),

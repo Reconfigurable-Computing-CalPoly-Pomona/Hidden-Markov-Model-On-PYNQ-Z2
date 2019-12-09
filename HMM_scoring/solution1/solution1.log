@@ -1482,3 +1482,74 @@ Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
 INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'HMM_scoring.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 184.102 ; gain = 92.500
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 184.102 ; gain = 92.500
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'std::max_element<int*>' into 'find_max_arr' (HMM_scoring.cpp:11).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 184.102 ; gain = 92.500
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 184.102 ; gain = 92.500
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-602] Inlining function 'find_max_arr' into 'HMM_Scoring' (HMM_scoring.cpp:129) automatically.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i12' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'max_array.i' (HMM_scoring.cpp:9) completely based on array size.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 184.102 ; gain = 92.500
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 184.102 ; gain = 92.500
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'HMM_Scoring' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 14.312 seconds; current allocated memory: 115.245 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 8 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.188 seconds; current allocated memory: 116.329 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'HMM_Scoring' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/m_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/n_arr' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MM' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MD' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MI' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MMis' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MisI' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MisD' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MisMis' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'HMM_Scoring/MisM' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'HMM_Scoring' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return', 'n_arr', 'MM', 'MD', 'MI', 'MMis', 'MisI', 'MisD', 'MisMis' and 'MisM' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array_1' to 'HMM_Scoring_max_abkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_max_array' to 'HMM_Scoring_max_acud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'HMM_Scoring_grading_arr' to 'HMM_Scoring_gradidEe' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'HMM_Scoring'.
+INFO: [HLS 200-111]  Elapsed time: 0.31 seconds; current allocated memory: 118.206 MB.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_max_abkb_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'HMM_Scoring_gradidEe_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 192.414 ; gain = 100.813
+INFO: [VHDL 208-304] Generating VHDL RTL for HMM_Scoring.
+INFO: [VLOG 209-307] Generating Verilog RTL for HMM_Scoring.
+INFO: [HLS 200-112] Total elapsed time: 17.696 seconds; peak allocated memory: 118.206 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.

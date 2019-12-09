@@ -141,14 +141,14 @@
     "Vhdl": [
       "impl\/vhdl\/HMM_Scoring_AXILiteS_s_axi.vhd",
       "impl\/vhdl\/HMM_Scoring_gmem_m_axi.vhd",
-      "impl\/vhdl\/HMM_Scoring_gradicud.vhd",
+      "impl\/vhdl\/HMM_Scoring_gradidEe.vhd",
       "impl\/vhdl\/HMM_Scoring_max_abkb.vhd",
       "impl\/vhdl\/HMM_Scoring.vhd"
     ],
     "Verilog": [
       "impl\/verilog\/HMM_Scoring_AXILiteS_s_axi.v",
       "impl\/verilog\/HMM_Scoring_gmem_m_axi.v",
-      "impl\/verilog\/HMM_Scoring_gradicud.v",
+      "impl\/verilog\/HMM_Scoring_gradidEe.v",
       "impl\/verilog\/HMM_Scoring_max_abkb.v",
       "impl\/verilog\/HMM_Scoring.v"
     ],
@@ -1039,10 +1039,10 @@
         "Latency": {
           "LatencyBest": "562802",
           "LatencyAvg": "762802",
-          "LatencyWorst": "1202802",
+          "LatencyWorst": "1282802",
           "PipelineIIMin": "562803",
-          "PipelineIIMax": "1202803",
-          "PipelineII": "562803 ~ 1202803",
+          "PipelineIIMax": "1282803",
+          "PipelineII": "562803 ~ 1282803",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -1070,29 +1070,38 @@
             "Name": "Loop 2",
             "TripCount": "200",
             "LatencyMin": "442200",
-            "LatencyMax": "1082200",
-            "Latency": "442200 ~ 1082200",
+            "LatencyMax": "1162200",
+            "Latency": "442200 ~ 1162200",
             "PipelineII": "",
             "PipelineDepthMin": "2211",
-            "PipelineDepthMax": "5411",
-            "PipelineDepth": "2211 ~ 5411",
+            "PipelineDepthMax": "5811",
+            "PipelineDepth": "2211 ~ 5811",
             "Loops": [{
                 "Name": "Loop 2.1",
                 "TripCount": "200",
                 "LatencyMin": "2200",
-                "LatencyMax": "5400",
-                "Latency": "2200 ~ 5400",
+                "LatencyMax": "5800",
+                "Latency": "2200 ~ 5800",
                 "PipelineII": "",
                 "PipelineDepthMin": "11",
-                "PipelineDepthMax": "27",
-                "PipelineDepth": "11 ~ 27",
-                "Loops": [{
+                "PipelineDepthMax": "29",
+                "PipelineDepth": "11 ~ 29",
+                "Loops": [
+                  {
                     "Name": "Loop 2.1.1",
                     "TripCount": "2",
                     "Latency": "7",
                     "PipelineII": "",
                     "PipelineDepth": "3"
-                  }]
+                  },
+                  {
+                    "Name": "Loop 2.1.2",
+                    "TripCount": "2",
+                    "Latency": "7",
+                    "PipelineII": "",
+                    "PipelineDepth": "3"
+                  }
+                ]
               }]
           },
           {
@@ -1111,10 +1120,10 @@
           }
         ],
         "Area": {
-          "BRAM_18K": "130",
+          "BRAM_18K": "134",
           "DSP48E": "0",
-          "FF": "2082",
-          "LUT": "2981",
+          "FF": "2164",
+          "LUT": "3272",
           "URAM": "0"
         }
       }}
@@ -1129,7 +1138,7 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2019-12-08 11:43:46 -0800",
+    "Time": "2019-12-08 16:05:23 -0800",
     "ToolName": "vivado_hls",
     "ToolVersion": "2019.1"
   }

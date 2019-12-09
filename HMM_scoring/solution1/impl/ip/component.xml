@@ -1201,7 +1201,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>cec6d4f2</spirit:value>
+            <spirit:value>89573928</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1217,7 +1217,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>81e23413</spirit:value>
+            <spirit:value>a07dbde3</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1233,7 +1233,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>ddf352e1</spirit:value>
+            <spirit:value>fbc8336d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1249,7 +1249,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>6a6dd595</spirit:value>
+            <spirit:value>c0aa0182</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2533,7 +2533,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/HMM_Scoring_gradicud.v</spirit:name>
+        <spirit:name>hdl/verilog/HMM_Scoring_gradidEe.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2558,7 +2558,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/HMM_Scoring_gradicud.v</spirit:name>
+        <spirit:name>hdl/verilog/HMM_Scoring_gradidEe.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2589,7 +2589,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/HMM_Scoring_gradicud.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/HMM_Scoring_gradidEe.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2599,7 +2599,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/HMM_Scoring.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_1c1ed4f8</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_01cd9b5c</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -2615,7 +2615,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/HMM_Scoring_gradicud.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/HMM_Scoring_gradidEe.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2843,15 +2843,15 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Hmm_scoring</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>1912081145</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-12-08T19:45:44Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>1912081605</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2019-12-09T00:05:59Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2019.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="8effc416"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="3b31a8bb"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="4c7c7308"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="c2f626ed"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="f52d8b27"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="03b24a7c"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="42bd2006"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="65085a79"/>

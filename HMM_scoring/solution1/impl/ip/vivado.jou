@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Dec  8 11:45:21 2019
-# Process ID: 17268
+# Start of session at: Sun Dec  8 16:05:53 2019
+# Process ID: 6328
 # Current directory: C:/Users/Aaron/Desktop/HMMs/HMM_scoring/solution1/impl/ip
 # Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
 # Log file: C:/Users/Aaron/Desktop/HMMs/HMM_scoring/solution1/impl/ip/vivado.log
