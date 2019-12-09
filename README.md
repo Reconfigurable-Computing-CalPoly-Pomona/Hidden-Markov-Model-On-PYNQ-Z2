@@ -1,7 +1,7 @@
 # Hidden-Markov-Model-On-PYNQ-Z2
 **Overview**
 
-This project has been done as a collaboration between California State Polytechnic University Pomona, IBM and Xilinx on developing a acceleration of HMMs in calculating the similarity of two sequences on the PYNQ-Z2 FPGA kit. The goal is to design a FPGA-based design to accelerate the calculation of larga number of sequences. The main algorithms being used in Smith-Waterman's Algorithms and pair Hidden Markov Models algorithms.
+This project has been done as a collaboration between California State Polytechnic University Pomona, C3SR and Xilinx on developing a acceleration of HMMs in calculating the similarity of two sequences on the PYNQ-Z2 FPGA kit. The goal is to design a FPGA-based design to accelerate the calculation of larga number of sequences. The main algorithms being used in Smith-Waterman's Algorithms and pair Hidden Markov Models algorithms.
 
 **Team Members:**
 1. Yongyuan Zhang: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. 
