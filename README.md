@@ -8,6 +8,7 @@ This project has been done as a collaboration between California State Polytechn
 2. Ziyan Lin: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. 
 
 **Supervising Professor:** 
+
 . Mohamed El-Hadedy: Assistant Professor in Electrical and Computer Engineering at CalPoly, Pomona  
 
 **Collaborators:**
