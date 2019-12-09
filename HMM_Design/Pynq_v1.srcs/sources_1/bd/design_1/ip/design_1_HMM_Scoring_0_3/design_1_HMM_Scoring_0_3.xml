@@ -1705,11 +1705,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Dec 08 19:50:15 UTC 2019</spirit:value>
+            <spirit:value>Mon Dec 09 00:06:45 UTC 2019</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:280b6835</spirit:value>
+            <spirit:value>9:cfa2dc16</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1720,7 +1720,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:280b6835</spirit:value>
+            <spirit:value>9:cfa2dc16</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1736,11 +1736,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Dec 08 19:50:15 UTC 2019</spirit:value>
+            <spirit:value>Mon Dec 09 00:06:45 UTC 2019</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:280b6835</spirit:value>
+            <spirit:value>9:cfa2dc16</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1756,11 +1756,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Dec 08 19:50:15 UTC 2019</spirit:value>
+            <spirit:value>Mon Dec 09 00:06:45 UTC 2019</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:3f934d07</spirit:value>
+            <spirit:value>9:d83af924</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1776,11 +1776,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Dec 08 19:50:15 UTC 2019</spirit:value>
+            <spirit:value>Mon Dec 09 00:06:45 UTC 2019</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:3f934d07</spirit:value>
+            <spirit:value>9:d83af924</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1794,11 +1794,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Dec 08 19:51:24 UTC 2019</spirit:value>
+            <spirit:value>Mon Dec 09 00:08:44 UTC 2019</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:280b6835</spirit:value>
+            <spirit:value>9:cfa2dc16</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -3010,23 +3010,23 @@
         <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -3041,27 +3041,27 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/073c/hdl/verilog/HMM_Scoring.v</spirit:name>
+        <spirit:name>../../ipshared/1ee2/hdl/verilog/HMM_Scoring.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3286,7 +3286,7 @@
     <xilinx:coreExtensions>
       <xilinx:displayName>Hmm_scoring</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>1912081145</xilinx:coreRevision>
+      <xilinx:coreRevision>1912081605</xilinx:coreRevision>
       <xilinx:configElementInfos>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.AP_CLK.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd_and_user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.AP_CLK.FREQ_HZ" xilinx:valueSource="user_prop" xilinx:valuePermission="bd_and_user"/>
@@ -3337,7 +3337,7 @@
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="8effc416"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="3b31a8bb"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="4c7c7308"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="c2f626ed"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="f52d8b27"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="03b24a7c"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="42bd2006"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="65085a79"/>

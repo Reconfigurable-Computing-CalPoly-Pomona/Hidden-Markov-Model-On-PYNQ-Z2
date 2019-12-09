@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-// Date        : Sun Dec  8 11:51:23 2019
+// Date        : Sun Dec  8 16:08:43 2019
 // Host        : DESKTOP-A66E6H3 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ip/design_1_HMM_Scoring_0_3/design_1_HMM_Scoring_0_3_stub.v
