@@ -9,3 +9,6 @@ s1 = "ACCTGTACCC..."
 ```
 and if the length is longer than 200, it will need to have 2 for loops to calculate the scores block by block.
 The scoring parameters can be adjusted as input and the pynq-z2 will be able to return the scoring of the two sequences.
+
+**Video Tutorial Link:**
+https://youtu.be/_qxm47-8NHQ
