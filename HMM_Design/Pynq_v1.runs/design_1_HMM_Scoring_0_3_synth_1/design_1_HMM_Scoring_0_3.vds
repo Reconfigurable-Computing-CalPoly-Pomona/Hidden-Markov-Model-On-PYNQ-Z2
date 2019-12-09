@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Dec  8 11:50:26 2019
-# Process ID: 13992
+# Start of session at: Sun Dec  8 16:07:50 2019
+# Process ID: 19752
 # Current directory: C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_HMM_Scoring_0_3_synth_1
 # Command line: vivado.exe -log design_1_HMM_Scoring_0_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_HMM_Scoring_0_3.tcl
 # Log file: C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_HMM_Scoring_0_3_synth_1/design_1_HMM_Scoring_0_3.vds
@@ -19,60 +19,65 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 17988 
+INFO: Helper process launched with PID 21236 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 832.844 ; gain = 177.594
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 832.500 ; gain = 177.559
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_HMM_Scoring_0_3' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ip/design_1_HMM_Scoring_0_3/synth/design_1_HMM_Scoring_0_3.v:59]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:12]
-	Parameter ap_ST_fsm_state1 bound to: 48'b000000000000000000000000000000000000000000000001 
-	Parameter ap_ST_fsm_state2 bound to: 48'b000000000000000000000000000000000000000000000010 
-	Parameter ap_ST_fsm_state3 bound to: 48'b000000000000000000000000000000000000000000000100 
-	Parameter ap_ST_fsm_state4 bound to: 48'b000000000000000000000000000000000000000000001000 
-	Parameter ap_ST_fsm_state5 bound to: 48'b000000000000000000000000000000000000000000010000 
-	Parameter ap_ST_fsm_state6 bound to: 48'b000000000000000000000000000000000000000000100000 
-	Parameter ap_ST_fsm_state7 bound to: 48'b000000000000000000000000000000000000000001000000 
-	Parameter ap_ST_fsm_state8 bound to: 48'b000000000000000000000000000000000000000010000000 
-	Parameter ap_ST_fsm_state9 bound to: 48'b000000000000000000000000000000000000000100000000 
-	Parameter ap_ST_fsm_state10 bound to: 48'b000000000000000000000000000000000000001000000000 
-	Parameter ap_ST_fsm_state11 bound to: 48'b000000000000000000000000000000000000010000000000 
-	Parameter ap_ST_fsm_state12 bound to: 48'b000000000000000000000000000000000000100000000000 
-	Parameter ap_ST_fsm_state13 bound to: 48'b000000000000000000000000000000000001000000000000 
-	Parameter ap_ST_fsm_state14 bound to: 48'b000000000000000000000000000000000010000000000000 
-	Parameter ap_ST_fsm_state15 bound to: 48'b000000000000000000000000000000000100000000000000 
-	Parameter ap_ST_fsm_state16 bound to: 48'b000000000000000000000000000000001000000000000000 
-	Parameter ap_ST_fsm_state17 bound to: 48'b000000000000000000000000000000010000000000000000 
-	Parameter ap_ST_fsm_state18 bound to: 48'b000000000000000000000000000000100000000000000000 
-	Parameter ap_ST_fsm_state19 bound to: 48'b000000000000000000000000000001000000000000000000 
-	Parameter ap_ST_fsm_state20 bound to: 48'b000000000000000000000000000010000000000000000000 
-	Parameter ap_ST_fsm_state21 bound to: 48'b000000000000000000000000000100000000000000000000 
-	Parameter ap_ST_fsm_state22 bound to: 48'b000000000000000000000000001000000000000000000000 
-	Parameter ap_ST_fsm_state23 bound to: 48'b000000000000000000000000010000000000000000000000 
-	Parameter ap_ST_fsm_state24 bound to: 48'b000000000000000000000000100000000000000000000000 
-	Parameter ap_ST_fsm_state25 bound to: 48'b000000000000000000000001000000000000000000000000 
-	Parameter ap_ST_fsm_state26 bound to: 48'b000000000000000000000010000000000000000000000000 
-	Parameter ap_ST_fsm_state27 bound to: 48'b000000000000000000000100000000000000000000000000 
-	Parameter ap_ST_fsm_state28 bound to: 48'b000000000000000000001000000000000000000000000000 
-	Parameter ap_ST_fsm_state29 bound to: 48'b000000000000000000010000000000000000000000000000 
-	Parameter ap_ST_fsm_state30 bound to: 48'b000000000000000000100000000000000000000000000000 
-	Parameter ap_ST_fsm_state31 bound to: 48'b000000000000000001000000000000000000000000000000 
-	Parameter ap_ST_fsm_state32 bound to: 48'b000000000000000010000000000000000000000000000000 
-	Parameter ap_ST_fsm_state33 bound to: 48'b000000000000000100000000000000000000000000000000 
-	Parameter ap_ST_fsm_state34 bound to: 48'b000000000000001000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state35 bound to: 48'b000000000000010000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state36 bound to: 48'b000000000000100000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state37 bound to: 48'b000000000001000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state38 bound to: 48'b000000000010000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state39 bound to: 48'b000000000100000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state40 bound to: 48'b000000001000000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state41 bound to: 48'b000000010000000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state42 bound to: 48'b000000100000000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state43 bound to: 48'b000001000000000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state44 bound to: 48'b000010000000000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state45 bound to: 48'b000100000000000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state46 bound to: 48'b001000000000000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state47 bound to: 48'b010000000000000000000000000000000000000000000000 
-	Parameter ap_ST_fsm_state48 bound to: 48'b100000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:12]
+	Parameter ap_ST_fsm_state1 bound to: 53'b00000000000000000000000000000000000000000000000000001 
+	Parameter ap_ST_fsm_state2 bound to: 53'b00000000000000000000000000000000000000000000000000010 
+	Parameter ap_ST_fsm_state3 bound to: 53'b00000000000000000000000000000000000000000000000000100 
+	Parameter ap_ST_fsm_state4 bound to: 53'b00000000000000000000000000000000000000000000000001000 
+	Parameter ap_ST_fsm_state5 bound to: 53'b00000000000000000000000000000000000000000000000010000 
+	Parameter ap_ST_fsm_state6 bound to: 53'b00000000000000000000000000000000000000000000000100000 
+	Parameter ap_ST_fsm_state7 bound to: 53'b00000000000000000000000000000000000000000000001000000 
+	Parameter ap_ST_fsm_state8 bound to: 53'b00000000000000000000000000000000000000000000010000000 
+	Parameter ap_ST_fsm_state9 bound to: 53'b00000000000000000000000000000000000000000000100000000 
+	Parameter ap_ST_fsm_state10 bound to: 53'b00000000000000000000000000000000000000000001000000000 
+	Parameter ap_ST_fsm_state11 bound to: 53'b00000000000000000000000000000000000000000010000000000 
+	Parameter ap_ST_fsm_state12 bound to: 53'b00000000000000000000000000000000000000000100000000000 
+	Parameter ap_ST_fsm_state13 bound to: 53'b00000000000000000000000000000000000000001000000000000 
+	Parameter ap_ST_fsm_state14 bound to: 53'b00000000000000000000000000000000000000010000000000000 
+	Parameter ap_ST_fsm_state15 bound to: 53'b00000000000000000000000000000000000000100000000000000 
+	Parameter ap_ST_fsm_state16 bound to: 53'b00000000000000000000000000000000000001000000000000000 
+	Parameter ap_ST_fsm_state17 bound to: 53'b00000000000000000000000000000000000010000000000000000 
+	Parameter ap_ST_fsm_state18 bound to: 53'b00000000000000000000000000000000000100000000000000000 
+	Parameter ap_ST_fsm_state19 bound to: 53'b00000000000000000000000000000000001000000000000000000 
+	Parameter ap_ST_fsm_state20 bound to: 53'b00000000000000000000000000000000010000000000000000000 
+	Parameter ap_ST_fsm_state21 bound to: 53'b00000000000000000000000000000000100000000000000000000 
+	Parameter ap_ST_fsm_state22 bound to: 53'b00000000000000000000000000000001000000000000000000000 
+	Parameter ap_ST_fsm_state23 bound to: 53'b00000000000000000000000000000010000000000000000000000 
+	Parameter ap_ST_fsm_state24 bound to: 53'b00000000000000000000000000000100000000000000000000000 
+	Parameter ap_ST_fsm_state25 bound to: 53'b00000000000000000000000000001000000000000000000000000 
+	Parameter ap_ST_fsm_state26 bound to: 53'b00000000000000000000000000010000000000000000000000000 
+	Parameter ap_ST_fsm_state27 bound to: 53'b00000000000000000000000000100000000000000000000000000 
+	Parameter ap_ST_fsm_state28 bound to: 53'b00000000000000000000000001000000000000000000000000000 
+	Parameter ap_ST_fsm_state29 bound to: 53'b00000000000000000000000010000000000000000000000000000 
+	Parameter ap_ST_fsm_state30 bound to: 53'b00000000000000000000000100000000000000000000000000000 
+	Parameter ap_ST_fsm_state31 bound to: 53'b00000000000000000000001000000000000000000000000000000 
+	Parameter ap_ST_fsm_state32 bound to: 53'b00000000000000000000010000000000000000000000000000000 
+	Parameter ap_ST_fsm_state33 bound to: 53'b00000000000000000000100000000000000000000000000000000 
+	Parameter ap_ST_fsm_state34 bound to: 53'b00000000000000000001000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state35 bound to: 53'b00000000000000000010000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state36 bound to: 53'b00000000000000000100000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state37 bound to: 53'b00000000000000001000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state38 bound to: 53'b00000000000000010000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state39 bound to: 53'b00000000000000100000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state40 bound to: 53'b00000000000001000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state41 bound to: 53'b00000000000010000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state42 bound to: 53'b00000000000100000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state43 bound to: 53'b00000000001000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state44 bound to: 53'b00000000010000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state45 bound to: 53'b00000000100000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state46 bound to: 53'b00000001000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state47 bound to: 53'b00000010000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state48 bound to: 53'b00000100000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state49 bound to: 53'b00001000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state50 bound to: 53'b00010000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state51 bound to: 53'b00100000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state52 bound to: 53'b01000000000000000000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_state53 bound to: 53'b10000000000000000000000000000000000000000000000000000 
 	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 7 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -92,8 +97,8 @@ INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring' [c:/Users/Aaron/Desktop/H
 	Parameter C_S_AXI_WSTRB_WIDTH bound to: 4 - type: integer 
 	Parameter C_M_AXI_GMEM_WSTRB_WIDTH bound to: 4 - type: integer 
 	Parameter C_M_AXI_WSTRB_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:219]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_AXILiteS_s_axi' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v:6]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:224]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_AXILiteS_s_axi' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v:6]
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter ADDR_AP_CTRL bound to: 7'b0000000 
@@ -129,9 +134,9 @@ INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_AXILiteS_s_axi' [c:/Users/
 	Parameter RDDATA bound to: 2'b01 
 	Parameter RDRESET bound to: 2'b10 
 	Parameter ADDR_BITS bound to: 7 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v:259]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_AXILiteS_s_axi' (1#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v:6]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:8]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v:259]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_AXILiteS_s_axi' (1#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v:6]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:8]
 	Parameter CONSERVATIVE bound to: 0 - type: integer 
 	Parameter NUM_READ_OUTSTANDING bound to: 16 - type: integer 
 	Parameter NUM_WRITE_OUTSTANDING bound to: 16 - type: integer 
@@ -152,7 +157,7 @@ INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi' [c:/Users/Aaro
 	Parameter USER_DW bound to: 32 - type: integer 
 	Parameter USER_AW bound to: 32 - type: integer 
 	Parameter USER_MAXREQS bound to: 5 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_throttl' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:708]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_throttl' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:708]
 	Parameter USED_FIX bound to: 0 - type: integer 
 	Parameter FIX_VALUE bound to: 4 - type: integer 
 	Parameter ADDR_WIDTH bound to: 32 - type: integer 
@@ -161,8 +166,8 @@ INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_throttl' [c:/Us
 	Parameter USER_MAXREQS bound to: 16 - type: integer 
 	Parameter CONSERVATIVE bound to: 0 - type: integer 
 	Parameter AVERAGE_MODE bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_throttl' (2#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:708]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_write' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:1701]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_throttl' (2#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:708]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_write' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:1701]
 	Parameter NUM_WRITE_OUTSTANDING bound to: 16 - type: integer 
 	Parameter MAX_WRITE_BURST_LENGTH bound to: 16 - type: integer 
 	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
@@ -187,41 +192,41 @@ INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_write' [c:/User
 	Parameter NUM_WRITE_WIDTH bound to: 4 - type: integer 
 	Parameter TARGET_ADDR bound to: 0 - type: integer 
 	Parameter BOUNDARY_BEATS bound to: 10'b1111111111 
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_fifo' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_fifo' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
 	Parameter DATA_BITS bound to: 8 - type: integer 
 	Parameter DEPTH bound to: 5 - type: integer 
 	Parameter DEPTH_BITS bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_fifo' (3#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_reg_slice' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:314]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_fifo' (3#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_reg_slice' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:314]
 	Parameter N bound to: 64 - type: integer 
 	Parameter ZERO bound to: 2'b10 
 	Parameter ONE bound to: 2'b11 
 	Parameter TWO bound to: 2'b01 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_reg_slice' (4#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:314]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized0' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_reg_slice' (4#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:314]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized0' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
 	Parameter DATA_BITS bound to: 64 - type: integer 
 	Parameter DEPTH bound to: 5 - type: integer 
 	Parameter DEPTH_BITS bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized0' (4#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_buffer' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:527]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized0' (4#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_buffer' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:527]
 	Parameter MEM_STYLE bound to: block - type: string 
 	Parameter DATA_WIDTH bound to: 36 - type: integer 
 	Parameter ADDR_WIDTH bound to: 8 - type: integer 
 	Parameter DEPTH bound to: 256 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_buffer' (5#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:527]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized1' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_buffer' (5#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:527]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized1' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
 	Parameter DATA_BITS bound to: 2 - type: integer 
 	Parameter DEPTH bound to: 15 - type: integer 
 	Parameter DEPTH_BITS bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized1' (5#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized2' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized1' (5#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized2' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
 	Parameter DATA_BITS bound to: 2 - type: integer 
 	Parameter DEPTH bound to: 5 - type: integer 
 	Parameter DEPTH_BITS bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized2' (5#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
-WARNING: [Synth 8-6014] Unused sequential element sect_end_buf_reg was removed.  [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:2069]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_write' (6#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:1701]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_read' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:904]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_fifo__parameterized2' (5#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:418]
+WARNING: [Synth 8-6014] Unused sequential element sect_end_buf_reg was removed.  [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:2069]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_write' (6#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:1701]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_read' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:904]
 	Parameter NUM_READ_OUTSTANDING bound to: 16 - type: integer 
 	Parameter MAX_READ_BURST_LENGTH bound to: 16 - type: integer 
 	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
@@ -245,51 +250,54 @@ INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_read' [c:/Users
 	Parameter NUM_READ_WIDTH bound to: 4 - type: integer 
 	Parameter TARGET_ADDR bound to: 0 - type: integer 
 	Parameter BOUNDARY_BEATS bound to: 10'b1111111111 
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_buffer__parameterized0' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:527]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_buffer__parameterized0' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:527]
 	Parameter MEM_STYLE bound to: block - type: string 
 	Parameter DATA_WIDTH bound to: 35 - type: integer 
 	Parameter ADDR_WIDTH bound to: 8 - type: integer 
 	Parameter DEPTH bound to: 256 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_buffer__parameterized0' (6#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:527]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_reg_slice__parameterized0' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:314]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_buffer__parameterized0' (6#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:527]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gmem_m_axi_reg_slice__parameterized0' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:314]
 	Parameter N bound to: 34 - type: integer 
 	Parameter ZERO bound to: 2'b10 
 	Parameter ONE bound to: 2'b11 
 	Parameter TWO bound to: 2'b01 
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_reg_slice__parameterized0' (6#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:314]
-WARNING: [Synth 8-6014] Unused sequential element sect_end_buf_reg was removed.  [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:1252]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_read' (7#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:904]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi' (8#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:8]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_max_abkb' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_reg_slice__parameterized0' (6#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:314]
+WARNING: [Synth 8-6014] Unused sequential element sect_end_buf_reg was removed.  [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:1252]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi_read' (7#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:904]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gmem_m_axi' (8#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:8]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_max_abkb' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v:58]
 	Parameter DataWidth bound to: 32 - type: integer 
 	Parameter AddressRange bound to: 3 - type: integer 
 	Parameter AddressWidth bound to: 2 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_max_abkb_ram' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v:6]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_max_abkb_ram' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v:6]
 	Parameter DWIDTH bound to: 32 - type: integer 
 	Parameter AWIDTH bound to: 2 - type: integer 
 	Parameter MEM_SIZE bound to: 3 - type: integer 
-INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v:19]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_max_abkb_ram' (9#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_max_abkb' (10#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v:40]
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gradicud' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v:58]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_max_abkb_ram' (9#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_max_abkb' (10#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v:58]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gradidEe' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v:58]
 	Parameter DataWidth bound to: 32 - type: integer 
 	Parameter AddressRange bound to: 40000 - type: integer 
 	Parameter AddressWidth bound to: 16 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gradicud_ram' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v:6]
+INFO: [Synth 8-6157] synthesizing module 'HMM_Scoring_gradidEe_ram' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v:6]
 	Parameter DWIDTH bound to: 32 - type: integer 
 	Parameter AWIDTH bound to: 16 - type: integer 
 	Parameter MEM_SIZE bound to: 40000 - type: integer 
-INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v:24]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gradicud_ram' (11#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gradicud' (12#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v:58]
-WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1464]
-WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1466]
-WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1468]
-WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1470]
-WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1472]
-INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring' (13#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:12]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gradidEe_ram' (11#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring_gradidEe' (12#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v:58]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1703]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1705]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1707]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1709]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1711]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1713]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1715]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1717]
+INFO: [Synth 8-6155] done synthesizing module 'HMM_Scoring' (13#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_HMM_Scoring_0_3' (14#1) [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ip/design_1_HMM_Scoring_0_3/synth/design_1_HMM_Scoring_0_3.v:59]
-WARNING: [Synth 8-3331] design HMM_Scoring_gradicud has unconnected port reset
+WARNING: [Synth 8-3331] design HMM_Scoring_gradidEe has unconnected port reset
 WARNING: [Synth 8-3331] design HMM_Scoring_max_abkb has unconnected port reset
 WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi_read has unconnected port RID[0]
 WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi_read has unconnected port RUSER[0]
@@ -331,7 +339,7 @@ WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi has unconnected port I_ARB
 WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi has unconnected port I_ARLOCK[1]
 WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi has unconnected port I_ARLOCK[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 926.223 ; gain = 270.973
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 926.078 ; gain = 271.137
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -344,10 +352,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 926.223 ; gain = 270.973
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 926.078 ; gain = 271.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 926.223 ; gain = 270.973
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 926.078 ; gain = 271.137
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -359,44 +367,44 @@ Parsing XDC File [C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_HMM_
 Finished Parsing XDC File [C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_HMM_Scoring_0_3_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1052.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1052.512 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 1063.625 ; gain = 11.375
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1064.711 ; gain = 12.199
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1063.625 ; gain = 408.375
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1064.711 ; gain = 409.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1063.625 ; gain = 408.375
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1064.711 ; gain = 409.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_HMM_Scoring_0_3_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1063.625 ; gain = 408.375
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1064.711 ; gain = 409.770
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'HMM_Scoring_AXILiteS_s_axi'
 INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'HMM_Scoring_AXILiteS_s_axi'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'HMM_Scoring_gmem_m_axi_reg_slice'
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:610]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:506]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v:610]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:610]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:506]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v:610]
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'HMM_Scoring_gmem_m_axi_reg_slice__parameterized0'
-INFO: [Synth 8-4471] merging register 'p_cast_reg_1018_reg[29:0]' into 'p_cast19_reg_1013_reg[29:0]' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:752]
-INFO: [Synth 8-4471] merging register 'p_cast_reg_1018_reg[30:30]' into 'p_cast20_reg_1006_reg[30:30]' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1336]
-INFO: [Synth 8-4471] merging register 'zext_ln63_reg_1064_reg[8:8]' into 'p_cast20_reg_1006_reg[30:30]' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1340]
-INFO: [Synth 8-4471] merging register 'zext_ln65_reg_1139_reg[8:8]' into 'p_cast20_reg_1006_reg[30:30]' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1410]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:1063]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:969]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:605]
-WARNING: [Synth 8-3936] Found unconnected internal register 'add_ln79_reg_1210_reg' and it is trimmed from '17' to '16' bits. [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:807]
-WARNING: [Synth 8-3936] Found unconnected internal register 'mul_ln79_reg_1121_reg' and it is trimmed from '14' to '13' bits. [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:822]
+INFO: [Synth 8-4471] merging register 'p_cast_reg_1255_reg[29:0]' into 'p_cast21_reg_1250_reg[29:0]' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:853]
+INFO: [Synth 8-4471] merging register 'p_cast_reg_1255_reg[30:30]' into 'p_cast22_reg_1243_reg[30:30]' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1549]
+INFO: [Synth 8-4471] merging register 'zext_ln63_reg_1316_reg[8:8]' into 'p_cast22_reg_1243_reg[30:30]' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1553]
+INFO: [Synth 8-4471] merging register 'zext_ln65_reg_1391_reg[8:8]' into 'p_cast22_reg_1243_reg[30:30]' [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:1633]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:654]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:673]
+WARNING: [Synth 8-3936] Found unconnected internal register 'add_ln126_reg_1443_reg' and it is trimmed from '17' to '16' bits. [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:860]
+WARNING: [Synth 8-3936] Found unconnected internal register 'add_ln79_reg_1461_reg' and it is trimmed from '17' to '16' bits. [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:916]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_ln79_reg_1373_reg' and it is trimmed from '14' to '13' bits. [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:931]
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
@@ -433,9 +441,10 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
                      TWO |                               01 |                               01
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'HMM_Scoring_gmem_m_axi_reg_slice__parameterized0'
-INFO: [Synth 8-3971] The signal "HMM_Scoring_gradicud_ram:/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "HMM_Scoring_max_abkb_ram:/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "HMM_Scoring_gradidEe_ram:/ram_reg" was recognized as a true dual port RAM template.
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1063.625 ; gain = 408.375
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1064.711 ; gain = 409.770
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -448,8 +457,8 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 7     
-	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 8     
+	   3 Input     32 Bit       Adders := 4     
 	   2 Input     31 Bit       Adders := 3     
 	   2 Input     20 Bit       Adders := 2     
 	   2 Input     16 Bit       Adders := 9     
@@ -459,58 +468,60 @@ Detailed RTL Component Info :
 	   2 Input      6 Bit       Adders := 2     
 	   2 Input      4 Bit       Adders := 2     
 	   2 Input      3 Bit       Adders := 8     
-	   2 Input      2 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
 +---XORs : 
 	   2 Input      1 Bit         XORs := 2     
 +---Registers : 
 	               64 Bit    Registers := 6     
-	               48 Bit    Registers := 1     
+	               53 Bit    Registers := 1     
 	               36 Bit    Registers := 3     
 	               35 Bit    Registers := 3     
 	               34 Bit    Registers := 2     
-	               32 Bit    Registers := 45    
+	               32 Bit    Registers := 51    
 	               31 Bit    Registers := 4     
 	               30 Bit    Registers := 2     
 	               20 Bit    Registers := 2     
-	               16 Bit    Registers := 9     
+	               16 Bit    Registers := 11    
 	               10 Bit    Registers := 4     
 	                9 Bit    Registers := 1     
 	                8 Bit    Registers := 22    
 	                7 Bit    Registers := 1     
-	                6 Bit    Registers := 2     
+	                6 Bit    Registers := 3     
 	                5 Bit    Registers := 1     
-	                4 Bit    Registers := 3     
+	                4 Bit    Registers := 4     
 	                3 Bit    Registers := 5     
-	                2 Bit    Registers := 11    
+	                2 Bit    Registers := 14    
 	                1 Bit    Registers := 62    
 +---RAMs : 
 	            1250K Bit         RAMs := 1     
 	               9K Bit         RAMs := 1     
 	               8K Bit         RAMs := 1     
+	               96 Bit         RAMs := 2     
 +---Muxes : 
 	   2 Input     64 Bit        Muxes := 2     
-	   2 Input     48 Bit        Muxes := 1     
-	  49 Input     48 Bit        Muxes := 1     
-	   2 Input     47 Bit        Muxes := 1     
-	   2 Input     46 Bit        Muxes := 1     
-	   2 Input     45 Bit        Muxes := 2     
-	   2 Input     44 Bit        Muxes := 1     
+	   2 Input     53 Bit        Muxes := 1     
+	  54 Input     53 Bit        Muxes := 1     
+	   2 Input     52 Bit        Muxes := 1     
+	   2 Input     51 Bit        Muxes := 1     
+	   2 Input     50 Bit        Muxes := 1     
+	   2 Input     43 Bit        Muxes := 1     
+	   2 Input     42 Bit        Muxes := 1     
+	   2 Input     41 Bit        Muxes := 3     
 	   2 Input     37 Bit        Muxes := 1     
 	   2 Input     36 Bit        Muxes := 1     
-	   2 Input     35 Bit        Muxes := 2     
-	   2 Input     34 Bit        Muxes := 2     
-	   2 Input     32 Bit        Muxes := 27    
+	   2 Input     35 Bit        Muxes := 1     
+	   2 Input     34 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 28    
 	  16 Input     32 Bit        Muxes := 1     
 	   2 Input     25 Bit        Muxes := 1     
 	   2 Input     23 Bit        Muxes := 1     
 	   2 Input     20 Bit        Muxes := 2     
-	   2 Input     16 Bit        Muxes := 4     
+	   2 Input     16 Bit        Muxes := 6     
 	   2 Input     15 Bit        Muxes := 1     
 	   2 Input     14 Bit        Muxes := 1     
 	   2 Input     13 Bit        Muxes := 1     
 	   4 Input     12 Bit        Muxes := 2     
 	   2 Input     10 Bit        Muxes := 4     
-	   2 Input      9 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 11    
 	   4 Input      8 Bit        Muxes := 2     
 	   2 Input      7 Bit        Muxes := 1     
@@ -522,10 +533,10 @@ Detailed RTL Component Info :
 	  16 Input      4 Bit        Muxes := 1     
 	   3 Input      3 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 7     
-	   2 Input      2 Bit        Muxes := 40    
+	   2 Input      2 Bit        Muxes := 46    
 	   3 Input      2 Bit        Muxes := 9     
-	   5 Input      2 Bit        Muxes := 4     
-	   2 Input      1 Bit        Muxes := 64    
+	   5 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 70    
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -714,8 +725,10 @@ Detailed RTL Component Info :
 Module HMM_Scoring_max_abkb_ram 
 Detailed RTL Component Info : 
 +---Registers : 
-	               32 Bit    Registers := 1     
-Module HMM_Scoring_gradicud_ram 
+	               32 Bit    Registers := 2     
++---RAMs : 
+	               96 Bit         RAMs := 1     
+Module HMM_Scoring_gradidEe_ram 
 Detailed RTL Component Info : 
 +---Registers : 
 	               32 Bit    Registers := 2     
@@ -724,51 +737,51 @@ Detailed RTL Component Info :
 Module HMM_Scoring 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 4     
 	   2 Input     31 Bit       Adders := 3     
 	   2 Input     16 Bit       Adders := 9     
 	   2 Input      9 Bit       Adders := 2     
 	   2 Input      8 Bit       Adders := 6     
-	   2 Input      2 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
 +---Registers : 
-	               48 Bit    Registers := 1     
-	               32 Bit    Registers := 16    
+	               53 Bit    Registers := 1     
+	               32 Bit    Registers := 19    
 	               31 Bit    Registers := 4     
 	               30 Bit    Registers := 2     
-	               16 Bit    Registers := 9     
+	               16 Bit    Registers := 11    
 	                9 Bit    Registers := 1     
 	                8 Bit    Registers := 13    
+	                6 Bit    Registers := 1     
 	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
 	                3 Bit    Registers := 1     
-	                2 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
 	                1 Bit    Registers := 6     
 +---Muxes : 
-	   2 Input     48 Bit        Muxes := 1     
-	  49 Input     48 Bit        Muxes := 1     
-	   2 Input     47 Bit        Muxes := 1     
-	   2 Input     46 Bit        Muxes := 1     
-	   2 Input     45 Bit        Muxes := 2     
-	   2 Input     44 Bit        Muxes := 1     
+	   2 Input     53 Bit        Muxes := 1     
+	  54 Input     53 Bit        Muxes := 1     
+	   2 Input     52 Bit        Muxes := 1     
+	   2 Input     51 Bit        Muxes := 1     
+	   2 Input     50 Bit        Muxes := 1     
+	   2 Input     43 Bit        Muxes := 1     
+	   2 Input     42 Bit        Muxes := 1     
+	   2 Input     41 Bit        Muxes := 3     
 	   2 Input     37 Bit        Muxes := 1     
-	   2 Input     35 Bit        Muxes := 1     
-	   2 Input     34 Bit        Muxes := 1     
-	   2 Input     32 Bit        Muxes := 9     
+	   2 Input     32 Bit        Muxes := 10    
 	   2 Input     25 Bit        Muxes := 1     
 	   2 Input     23 Bit        Muxes := 1     
-	   2 Input     16 Bit        Muxes := 4     
+	   2 Input     16 Bit        Muxes := 6     
 	   2 Input     15 Bit        Muxes := 1     
 	   2 Input     14 Bit        Muxes := 1     
 	   2 Input     13 Bit        Muxes := 1     
-	   2 Input      9 Bit        Muxes := 1     
 	   2 Input      7 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 1     
 	   4 Input      5 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 1     
-	   2 Input      2 Bit        Muxes := 2     
-	   5 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 9     
+	   2 Input      2 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 15    
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -785,11 +798,11 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3936] Found unconnected internal register 'mul_ln79_reg_1121_reg' and it is trimmed from '17' to '16' bits. [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v:822]
-DSP Report: Generating DSP mul_ln79_reg_1121_reg, operation Mode is: (A2*(B:0xc8))'.
-DSP Report: register add_ln73_reg_1095_reg is absorbed into DSP mul_ln79_reg_1121_reg.
-DSP Report: register mul_ln79_reg_1121_reg is absorbed into DSP mul_ln79_reg_1121_reg.
-DSP Report: operator mul_ln79_fu_645_p2 is absorbed into DSP mul_ln79_reg_1121_reg.
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_ln79_reg_1373_reg' and it is trimmed from '17' to '16' bits. [c:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v:931]
+DSP Report: Generating DSP mul_ln79_reg_1373_reg, operation Mode is: (A2*(B:0xc8))'.
+DSP Report: register add_ln73_reg_1347_reg is absorbed into DSP mul_ln79_reg_1373_reg.
+DSP Report: register mul_ln79_reg_1373_reg is absorbed into DSP mul_ln79_reg_1373_reg.
+DSP Report: operator mul_ln79_fu_761_p2 is absorbed into DSP mul_ln79_reg_1373_reg.
 WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi has unconnected port BID[0]
 WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi has unconnected port BUSER[0]
 WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi has unconnected port RID[0]
@@ -831,7 +844,13 @@ WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi has unconnected port I_ARP
 WARNING: [Synth 8-3331] design HMM_Scoring_gmem_m_axi has unconnected port I_ARUSER[0]
 warning: Removed RAM bus_write/buff_wdata/mem_reg due to inactive write enable
 WARNING: [Synth 8-6014] Unused sequential element bus_write/buff_wdata/mem_reg was removed. 
-INFO: [Synth 8-3971] The signal "inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "inst/max_array_1_U/HMM_Scoring_max_abkb_ram_U/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "inst/max_array_U/HMM_Scoring_max_abkb_ram_U/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/\zext_ln6045_3_reg_1529_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/\zext_ln6045_3_reg_1529_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\zext_ln6045_3_reg_1529_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\zext_ln6045_3_reg_1529_reg[5] )
 INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/bus_read/rs_rreq/data_p2_reg[62]' (FDE) to 'inst/HMM_Scoring_gmem_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
 INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/bus_read/rs_rreq/data_p2_reg[61]' (FDE) to 'inst/HMM_Scoring_gmem_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
 INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/bus_read/rs_rreq/data_p2_reg[60]' (FDE) to 'inst/HMM_Scoring_gmem_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
@@ -926,13 +945,15 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p2_reg[33] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p2_reg[32] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p2_reg[63] )
-INFO: [Synth 8-3886] merging instance 'inst/mem_index_phi_reg_399_reg[2]' (FDRE) to 'inst/mem_index_phi_reg_399_reg[3]'
-INFO: [Synth 8-3886] merging instance 'inst/mem_index_phi_reg_399_reg[3]' (FDRE) to 'inst/mem_index_phi_reg_399_reg[4]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\mem_index_phi_reg_399_reg[4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\mul_ln79_reg_1121_reg[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\mul_ln79_reg_1121_reg[1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\mul_ln79_reg_1121_reg[2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\p_cast20_reg_1006_reg[30] )
+INFO: [Synth 8-3886] merging instance 'inst/mem_index_phi_reg_499_reg[2]' (FDSE) to 'inst/mem_index_phi_reg_499_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/mem_index_phi_reg_499_reg[4]' (FDRE) to 'inst/mem_index_phi_reg_499_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/mem_index_phi23_reg_475_reg[2]' (FDRE) to 'inst/mem_index_phi23_reg_475_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/mem_index_phi23_reg_475_reg[3]' (FDRE) to 'inst/mem_index_phi23_reg_475_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\mem_index_phi23_reg_475_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\mul_ln79_reg_1373_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\mul_ln79_reg_1373_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\mul_ln79_reg_1373_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\p_cast22_reg_1243_reg[30] )
 INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/bus_read/start_addr_reg[0]' (FDRE) to 'inst/HMM_Scoring_gmem_m_axi_U/bus_read/start_addr_reg[1]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_read/start_addr_reg[1] )
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/buff_wdata/full_n_reg )
@@ -1002,8 +1023,6 @@ INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/bus_write/b
 INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/i_1_2/bus_write/buff_wdata/q_buf_reg[26]' (FD) to 'inst/HMM_Scoring_gmem_m_axi_U/i_1_2/bus_write/buff_wdata/q_buf_reg[27]'
 INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/bus_write/buff_wdata/q_tmp_reg[27]' (FDRE) to 'inst/HMM_Scoring_gmem_m_axi_U/bus_write/buff_wdata/q_tmp_reg[28]'
 INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/i_1_2/bus_write/buff_wdata/q_buf_reg[27]' (FD) to 'inst/HMM_Scoring_gmem_m_axi_U/i_1_2/bus_write/buff_wdata/q_buf_reg[28]'
-INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/bus_write/buff_wdata/q_tmp_reg[28]' (FDRE) to 'inst/HMM_Scoring_gmem_m_axi_U/bus_write/buff_wdata/q_tmp_reg[29]'
-INFO: [Synth 8-3886] merging instance 'inst/HMM_Scoring_gmem_m_axi_U/i_1_2/bus_write/buff_wdata/q_buf_reg[28]' (FD) to 'inst/HMM_Scoring_gmem_m_axi_U/i_1_2/bus_write/buff_wdata/q_buf_reg[29]'
 INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/buff_wdata/q_tmp_reg[31] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/buff_wdata/show_ahead_reg )
@@ -1029,17 +1048,13 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[59] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[58] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[57] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[56] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[55] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[54] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/HMM_Scoring_gmem_m_axi_U/\bus_write/rs_wreq/data_p1_reg[53] )
 INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 WARNING: [Synth 8-3332] Sequential element (FSM_onehot_wstate_reg[0]) is unused and will be removed from module HMM_Scoring_AXILiteS_s_axi.
 WARNING: [Synth 8-3332] Sequential element (FSM_onehot_rstate_reg[0]) is unused and will be removed from module HMM_Scoring_AXILiteS_s_axi.
 WARNING: [Synth 8-3332] Sequential element (bus_write/rs_wreq/FSM_sequential_state_reg[1]) is unused and will be removed from module HMM_Scoring_gmem_m_axi.
 WARNING: [Synth 8-3332] Sequential element (bus_write/rs_wreq/FSM_sequential_state_reg[0]) is unused and will be removed from module HMM_Scoring_gmem_m_axi.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1063.625 ; gain = 408.375
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1064.711 ; gain = 409.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1050,19 +1065,12 @@ Block RAM: Preliminary Mapping  Report (see note below)
 |Module Name                                    | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
 +-----------------------------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 |HMM_Scoring_gmem_m_axi_buffer__parameterized0: | mem_reg    | 256 x 35(READ_FIRST)   | W |   | 256 x 35(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
-|HMM_Scoring_gradicud_ram:                      | ram_reg    | 64 K x 32(READ_FIRST)  | W | R | 64 K x 32(READ_FIRST)  | W | R | Port A and B     | 0      | 64     | 
+|HMM_Scoring_max_abkb_ram:                      | ram_reg    | 4 x 32(READ_FIRST)     | W | R | 4 x 32(READ_FIRST)     | W | R | Port A and B     | 0      | 1      | 
+|HMM_Scoring_max_abkb_ram:                      | ram_reg    | 4 x 32(READ_FIRST)     | W | R | 4 x 32(READ_FIRST)     | W | R | Port A and B     | 0      | 1      | 
+|HMM_Scoring_gradidEe_ram:                      | ram_reg    | 64 K x 32(READ_FIRST)  | W | R | 64 K x 32(READ_FIRST)  | W | R | Port A and B     | 0      | 64     | 
 +-----------------------------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
 Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
-
-Distributed RAM: Preliminary Mapping  Report (see note below)
-+------------+------------------------------------------------+----------------+----------------------+-----------------+
-|Module Name | RTL Object                                     | Inference      | Size (Depth x Width) | Primitives      | 
-+------------+------------------------------------------------+----------------+----------------------+-----------------+
-|inst        | max_array_U/HMM_Scoring_max_abkb_ram_U/ram_reg | User Attribute | 4 x 32               | RAM16X1S x 32   | 
-+------------+------------------------------------------------+----------------+----------------------+-----------------+
-
-Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
 
 DSP: Preliminary Mapping  Report (see note below)
 +------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
@@ -1076,38 +1084,74 @@ Note: The table above is a preliminary report that shows the DSPs inferred at th
 Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6837] The timing for the instance inst/HMM_Scoring_gmem_m_axi_U/i_1_6/bus_read/buff_rdata/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_16 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_17 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_18 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_19 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_20 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_21 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_22 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_23 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_24 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_25 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_26 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_27 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_28 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_29 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_30 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/max_array_1_U/HMM_Scoring_max_abkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_1/max_array_1_U/HMM_Scoring_max_abkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_2/max_array_U/HMM_Scoring_max_abkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_2/max_array_U/HMM_Scoring_max_abkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_16 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_16 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_17 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_17 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_18 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_18 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_19 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_19 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_20 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_20 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_21 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_21 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_22 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_22 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_23 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_23 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_24 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_24 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_25 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_25 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_26 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_26 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_27 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_27 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_28 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_28 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_29 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_29 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_30 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_30 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_1_5/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -1118,13 +1162,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1063.625 ; gain = 408.375
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1064.711 ; gain = 409.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1135.145 ; gain = 479.895
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1165.660 ; gain = 510.719
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1135,16 +1179,10 @@ Block RAM: Final Mapping  Report
 |Module Name                                    | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
 +-----------------------------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 |HMM_Scoring_gmem_m_axi_buffer__parameterized0: | mem_reg    | 256 x 35(READ_FIRST)   | W |   | 256 x 35(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
-|HMM_Scoring_gradicud_ram:                      | ram_reg    | 64 K x 32(READ_FIRST)  | W | R | 64 K x 32(READ_FIRST)  | W | R | Port A and B     | 0      | 64     | 
+|HMM_Scoring_max_abkb_ram:                      | ram_reg    | 4 x 32(READ_FIRST)     | W | R | 4 x 32(READ_FIRST)     | W | R | Port A and B     | 0      | 1      | 
+|HMM_Scoring_max_abkb_ram:                      | ram_reg    | 4 x 32(READ_FIRST)     | W | R | 4 x 32(READ_FIRST)     | W | R | Port A and B     | 0      | 1      | 
+|HMM_Scoring_gradidEe_ram:                      | ram_reg    | 64 K x 32(READ_FIRST)  | W | R | 64 K x 32(READ_FIRST)  | W | R | Port A and B     | 0      | 64     | 
 +-----------------------------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
-
-
-Distributed RAM: Final Mapping  Report
-+------------+------------------------------------------------+----------------+----------------------+-----------------+
-|Module Name | RTL Object                                     | Inference      | Size (Depth x Width) | Primitives      | 
-+------------+------------------------------------------------+----------------+----------------------+-----------------+
-|inst        | max_array_U/HMM_Scoring_max_abkb_ram_U/ram_reg | User Attribute | 4 x 32               | RAM16X1S x 32   | 
-+------------+------------------------------------------------+----------------+----------------------+-----------------+
 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP and Shift Register Reporting
@@ -1159,40 +1197,39 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6837] The timing for the instance inst/HMM_Scoring_gmem_m_axi_U/bus_read/buff_rdata/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_16 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_17 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_18 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_19 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_20 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_21 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_22 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_23 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_24 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_25 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_26 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_27 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_28 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_29 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_30 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradicud_ram_U/ram_reg_1_31 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/max_array_1_U/HMM_Scoring_max_abkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/max_array_1_U/HMM_Scoring_max_abkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/max_array_U/HMM_Scoring_max_abkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/max_array_U/HMM_Scoring_max_abkb_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/grading_arr_U/HMM_Scoring_gradidEe_ram_U/ram_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Common 17-14] Message 'Synth 8-6837' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1136.148 ; gain = 480.898
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1166.664 ; gain = 511.723
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1212,24 +1249,30 @@ Finished Flattening Before IO Insertion
 ---------------------------------------------------------------------------------
 Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6064] Net grading_arr_we1 is driving 256 big block pins (URAM, BRAM and DSP loads). Created 26 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1182 is driving 256 big block pins (URAM, BRAM and DSP loads). Created 26 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1529 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1531 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1533 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1535 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1537 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1539 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1541 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1543 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1545 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1547 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1549 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1551 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1553 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1555 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1557 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
-INFO: [Synth 8-6064] Net n_1_1559 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net \ap_CS_fsm_reg[2]_rep__6_n_1  is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net \ap_CS_fsm_reg[2]_rep__5_n_1  is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net \ap_CS_fsm_reg[2]_rep__4_n_1  is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net \ap_CS_fsm_reg[2]_rep__3_n_1  is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net \ap_CS_fsm_reg[2]_rep__2_n_1  is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net \ap_CS_fsm_reg[2]_rep__1_n_1  is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net \ap_CS_fsm_reg[2]_rep__0_n_1  is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net \ap_CS_fsm_reg[2]_rep_n_1  is driving 32 big block pins (URAM, BRAM and DSP loads). Created 4 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[0] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[1] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[2] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[3] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[4] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[5] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[6] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[7] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[8] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[9] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[10] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[11] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[12] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[13] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[14] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net grading_arr_address1[15] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
 INFO: [Synth 8-6064] Net grading_arr_address0[0] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
 INFO: [Synth 8-6064] Net grading_arr_address0[1] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
 INFO: [Synth 8-6064] Net grading_arr_address0[2] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
@@ -1247,12 +1290,13 @@ INFO: [Synth 8-6064] Net grading_arr_address0[13] is driving 64 big block pins (
 INFO: [Synth 8-6064] Net grading_arr_address0[14] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
 INFO: [Synth 8-6064] Net grading_arr_address0[15] is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
 INFO: [Synth 8-6064] Net grading_arr_ce1 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
+INFO: [Synth 8-6064] Net ap_CS_fsm_state41 is driving 256 big block pins (URAM, BRAM and DSP loads). Created 26 replicas of its driver. 
 INFO: [Synth 8-6064] Net grading_arr_ce0 is driving 64 big block pins (URAM, BRAM and DSP loads). Created 7 replicas of its driver. 
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1136.969 ; gain = 481.719
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1166.664 ; gain = 511.723
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1265,7 +1309,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1136.969 ; gain = 481.719
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1166.664 ; gain = 511.723
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1277,25 +1321,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1136.969 ; gain = 481.719
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1166.664 ; gain = 511.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1136.969 ; gain = 481.719
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1166.664 ; gain = 511.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1136.969 ; gain = 481.719
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1166.664 ; gain = 511.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1136.969 ; gain = 481.719
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1166.664 ; gain = 511.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1305,8 +1349,8 @@ Static Shift Register Report:
 +------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
 |Module Name | RTL Name          | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
 +------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|HMM_Scoring | ap_CS_fsm_reg[41] | 6      | 2     | YES          | NO                 | YES               | 2      | 0       | 
-|HMM_Scoring | ap_CS_fsm_reg[29] | 5      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|HMM_Scoring | ap_CS_fsm_reg[47] | 6      | 3     | YES          | NO                 | YES               | 3      | 0       | 
+|HMM_Scoring | ap_CS_fsm_reg[10] | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
 +------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
 
 
@@ -1337,73 +1381,74 @@ Report Cell Usage:
 +------+-----------+------+
 |      |Cell       |Count |
 +------+-----------+------+
-|1     |CARRY4     |   129|
+|1     |CARRY4     |   158|
 |2     |DSP48E1_1  |     1|
-|3     |LUT1       |    31|
-|4     |LUT2       |   237|
-|5     |LUT3       |   470|
-|6     |LUT4       |   350|
-|7     |LUT5       |   450|
-|8     |LUT6       |   395|
+|3     |LUT1       |    33|
+|4     |LUT2       |   240|
+|5     |LUT3       |   498|
+|6     |LUT4       |   418|
+|7     |LUT5       |   467|
+|8     |LUT6       |   311|
 |9     |MUXF7      |    32|
-|10    |RAM16X1S   |    32|
-|11    |RAMB18E1   |     1|
-|12    |RAMB36E1   |    32|
+|10    |RAMB18E1   |     1|
+|11    |RAMB36E1   |     2|
+|12    |RAMB36E1_1 |    32|
 |13    |RAMB36E1_2 |    32|
 |14    |SRL16E     |    35|
-|15    |FDRE       |  1882|
-|16    |FDSE       |     4|
+|15    |FDRE       |  2084|
+|16    |FDSE       |     5|
 +------+-----------+------+
 
 Report Instance Areas: 
 +------+---------------------------------+-------------------------------------------------+------+
 |      |Instance                         |Module                                           |Cells |
 +------+---------------------------------+-------------------------------------------------+------+
-|1     |top                              |                                                 |  4113|
-|2     |  inst                           |HMM_Scoring                                      |  4113|
+|1     |top                              |                                                 |  4349|
+|2     |  inst                           |HMM_Scoring                                      |  4349|
 |3     |    HMM_Scoring_AXILiteS_s_axi_U |HMM_Scoring_AXILiteS_s_axi                       |   998|
 |4     |    HMM_Scoring_gmem_m_axi_U     |HMM_Scoring_gmem_m_axi                           |  1011|
 |5     |      bus_read                   |HMM_Scoring_gmem_m_axi_read                      |  1011|
 |6     |        buff_rdata               |HMM_Scoring_gmem_m_axi_buffer__parameterized0    |   174|
 |7     |        fifo_rctl                |HMM_Scoring_gmem_m_axi_fifo__parameterized1      |    68|
 |8     |        fifo_rreq                |HMM_Scoring_gmem_m_axi_fifo__parameterized0      |    87|
-|9     |        rs_rdata                 |HMM_Scoring_gmem_m_axi_reg_slice__parameterized0 |   131|
-|10    |        rs_rreq                  |HMM_Scoring_gmem_m_axi_reg_slice                 |   180|
-|11    |    grading_arr_U                |HMM_Scoring_gradicud                             |   636|
-|12    |      HMM_Scoring_gradicud_ram_U |HMM_Scoring_gradicud_ram                         |   636|
-|13    |    max_array_U                  |HMM_Scoring_max_abkb                             |   182|
-|14    |      HMM_Scoring_max_abkb_ram_U |HMM_Scoring_max_abkb_ram                         |   182|
+|9     |        rs_rdata                 |HMM_Scoring_gmem_m_axi_reg_slice__parameterized0 |   138|
+|10    |        rs_rreq                  |HMM_Scoring_gmem_m_axi_reg_slice                 |   173|
+|11    |    grading_arr_U                |HMM_Scoring_gradidEe                             |   607|
+|12    |      HMM_Scoring_gradidEe_ram_U |HMM_Scoring_gradidEe_ram                         |   607|
+|13    |    max_array_1_U                |HMM_Scoring_max_abkb                             |    46|
+|14    |      HMM_Scoring_max_abkb_ram_U |HMM_Scoring_max_abkb_ram_1                       |    46|
+|15    |    max_array_U                  |HMM_Scoring_max_abkb_0                           |    92|
+|16    |      HMM_Scoring_max_abkb_ram_U |HMM_Scoring_max_abkb_ram                         |    92|
 +------+---------------------------------+-------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1136.969 ; gain = 481.719
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1166.664 ; gain = 511.723
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 47 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 1136.969 ; gain = 344.316
-Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1136.969 ; gain = 481.719
+Synthesis finished with 0 errors, 0 critical warnings and 48 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 1166.664 ; gain = 373.090
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1166.664 ; gain = 511.723
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 259 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 258 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1151.980 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1182.555 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 32 instances were transformed.
-  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-381 Infos, 95 Warnings, 0 Critical Warnings and 0 Errors encountered.
+425 Infos, 99 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 1151.980 ; gain = 764.113
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1151.980 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 1182.555 ; gain = 795.477
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1182.555 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_HMM_Scoring_0_3_synth_1/design_1_HMM_Scoring_0_3.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_HMM_Scoring_0_3, cache-ID = 1aa89e37dcfd544a
-INFO: [Coretcl 2-1174] Renamed 13 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1151.980 ; gain = 0.000
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_HMM_Scoring_0_3, cache-ID = 9483ea62063336bd
+INFO: [Coretcl 2-1174] Renamed 15 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1182.555 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Aaron/Desktop/HMMs/Pynq_v1/Pynq_v1.runs/design_1_HMM_Scoring_0_3_synth_1/design_1_HMM_Scoring_0_3.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_HMM_Scoring_0_3_utilization_synth.rpt -pb design_1_HMM_Scoring_0_3_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Dec  8 11:51:24 2019...
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  8 16:08:44 2019...

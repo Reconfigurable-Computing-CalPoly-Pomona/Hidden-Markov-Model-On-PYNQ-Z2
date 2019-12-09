@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="design_1_HMM_Scoring_0_3_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1575834622">
+<GenRun Id="design_1_HMM_Scoring_0_3_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1575850066">
   <File Type="PA-TCL" Name="design_1_HMM_Scoring_0_3.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="design_1_HMM_Scoring_0_3_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="design_1_HMM_Scoring_0_3_reports.tcl"/>
