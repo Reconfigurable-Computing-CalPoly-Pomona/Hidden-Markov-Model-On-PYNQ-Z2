@@ -63,11 +63,11 @@ vlog -work processing_system7_vip_v1_0_7 -64 -sv -L axi_vip_v1_1_5 -L processing
 
 vlog -work xil_defaultlib -64 "+incdir+../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/8c62/hdl" "+incdir+../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ddd/hdl/verilog" "+incdir+../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/b2d0/hdl/verilog" "+incdir+../../../../Pynq_v1.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_2" "+incdir+E:/vivado/Vivado/2019.1/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_processing_system7_0_2/sim/design_1_processing_system7_0_2.v" \
-"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v" \
-"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v" \
-"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v" \
-"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v" \
-"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v" \
+"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v" \
+"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v" \
+"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v" \
+"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v" \
+"../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v" \
 "../../../bd/design_1/ip/design_1_HMM_Scoring_0_3/sim/design_1_HMM_Scoring_0_3.v" \
 
 vcom -work lib_cdc_v1_0_2 -64 -93 \

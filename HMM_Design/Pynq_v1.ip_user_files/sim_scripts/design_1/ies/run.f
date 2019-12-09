@@ -28,11 +28,11 @@
 -endlib
 -makelib ies_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_processing_system7_0_2/sim/design_1_processing_system7_0_2.v" \
-  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v" \
-  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gmem_m_axi.v" \
-  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_gradicud.v" \
-  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring_max_abkb.v" \
-  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/073c/hdl/verilog/HMM_Scoring.v" \
+  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_AXILiteS_s_axi.v" \
+  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gmem_m_axi.v" \
+  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_gradidEe.v" \
+  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring_max_abkb.v" \
+  "../../../../Pynq_v1.srcs/sources_1/bd/design_1/ipshared/1ee2/hdl/verilog/HMM_Scoring.v" \
   "../../../bd/design_1/ip/design_1_HMM_Scoring_0_3/sim/design_1_HMM_Scoring_0_3.v" \
 -endlib
 -makelib ies_lib/lib_cdc_v1_0_2 \
