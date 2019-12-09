@@ -17,6 +17,9 @@ This project has been done as a collaboration between California State Polytechn
 
 **2. Jinjun Xiong:** Director of Center for Cognitive Computing System Research and Adjunct Research Professor at UIUC  
 
+**Video Tutorial Link**
+https://youtu.be/_qxm47-8NHQ
+
 --------------------------------------
 
 **Intro to Pair Hidden Markov Models (PHMMs)**
